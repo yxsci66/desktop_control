@@ -1,0 +1,22 @@
+name: desktop_control_client
+description: Remote desktop controller client (Flutter)
+publish_to: "none"
+version: 0.1.0
+environment:
+  sdk: "^3.0.0"
+  flutter: "^3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webrtc: ^1.4.0
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  path_provider_android: 2.2.19
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,5 @@
+aiortc
+pyautogui
+opencv-python
+websockets
+mss
